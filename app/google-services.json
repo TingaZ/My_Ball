@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "84462042294",
+    "firebase_url": "https://ekasi-diski-2e27e.firebaseio.com",
+    "project_id": "ekasi-diski-2e27e",
+    "storage_bucket": "ekasi-diski-2e27e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84462042294:android:9eeef7b17c1f4b8e",
+        "android_client_info": {
+          "package_name": "com.tinga.android.myball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84462042294-vgioss1s3c5skpghl7bighju75u7l234.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tinga.android.myball",
+            "certificate_hash": "5DDEB9F665AF339D22309D1C38819C8FF184DE14"
+          }
+        },
+        {
+          "client_id": "84462042294-k3e3g1rpcggtfciovsq3o1unsbnmbhug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6CJrrQw1FO0A7qfxE9vfWws0vt4wE978"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84462042294-k3e3g1rpcggtfciovsq3o1unsbnmbhug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
