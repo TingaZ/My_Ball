@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_tournaments"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tinga.android.myball.AddTournamentsActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="25dp">
+
+            <ImageButton
+                android:id="@+id/imageButton_select"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="#00ffffff"
+                android:scaleType="centerCrop"
+                android:src="@drawable/no_image_available" />
+
+            <EditText
+                android:id="@+id/editText_tournamentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageButton_select"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:hint="Tournament Name ..."
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editText_tournament_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/editText_tournamentName"
+                android:layout_alignLeft="@+id/editText_tournamentName"
+                android:layout_alignRight="@+id/editText_tournamentName"
+                android:layout_alignStart="@+id/editText_tournamentName"
+                android:layout_below="@+id/editText_tournamentName"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/input_outline"
+                android:hint="Tournament Date ..."
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editText_tournament_decription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/editText_tournament_date"
+                android:layout_alignLeft="@+id/editText_tournament_date"
+                android:layout_alignRight="@+id/editText_tournament_date"
+                android:layout_alignStart="@+id/editText_tournament_date"
+                android:layout_below="@+id/editText_tournament_date"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/input_outline"
+                android:hint="Tournament Description ..."
+                android:padding="15dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

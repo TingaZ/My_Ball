@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvGroup"
+        android:text="Group A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"/>
+
+    <View
+        style="@style/ViewLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="P"
+            style="@style/TeamsStandingsStyle"/>
+
+        <TextView
+            android:text="W"
+            style="@style/TeamsStandingsStyle"/>
+
+        <TextView
+            android:text="L"
+            style="@style/TeamsStandingsStyle"/>
+
+        <TextView
+            android:text="D"
+            style="@style/TeamsStandingsStyle"/>
+
+        <TextView
+            android:text="Pts"
+            style="@style/TeamsStandingsStyle"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/ViewLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/tv_teamA"
+            android:text="Teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"/>
+
+        <TextView
+            android:id="@+id/tv_teamA_p"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamA_w"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamA_l"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamA_d"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamA_pts"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/tv_teamB"
+            android:text="Teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"/>
+
+        <TextView
+            android:id="@+id/tv_teamB_p"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamB_w"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamB_l"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamB_d"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamB_pts"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/tv_teamC"
+            android:text="Teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"/>
+
+        <TextView
+            android:id="@+id/tv_teamC_p"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamC_w"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamC_l"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamC_d"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamC_pts"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/tv_teamD"
+            android:text="Teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"/>
+
+        <TextView
+            android:id="@+id/tv_teamD_p"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamD_w"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamD_l"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamD_d"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+        <TextView
+            android:id="@+id/tv_teamD_pts"
+            android:text="0"
+            style="@style/TeamsStyle"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextTeamA"
+        android:hint="Team A" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextTeamB"
+        android:hint="Team B" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextTeamC"
+        android:hint="Team C" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextTeamD"
+        android:hint="Team D" />
+
+</LinearLayout>
